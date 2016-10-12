@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  border: none;
+}
+
+/* -----HEADER----- */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #323232;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#apple {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* -----MAIN-----*/
+.main {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+
+img {
+  float: right;
+  height: 250px;
+  width: 300px;
+  margin:
+}
+
+p {
+  font-size: 10px;
+  height: 10vh;
+  width: 40vw;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+
+/* -----FOOTER-----*/
+
+.footer {
+  background-color: #333333;
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
